@@ -30,3 +30,7 @@ def test_called_with_four():
 
 def test_called_with_six():
     assert generate_prime_factors(6) == [2, 3]
+
+
+def test_called_with_eight():
+    assert generate_prime_factors(8) == [2, 2, 2]
