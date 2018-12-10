@@ -26,3 +26,7 @@ def test_called_with_three():
 
 def test_called_with_four():
     assert generate_prime_factors(4) == [2, 2]
+
+
+def test_called_with_six():
+    assert generate_prime_factors(6) == [2, 3]
