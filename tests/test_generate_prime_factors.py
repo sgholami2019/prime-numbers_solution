@@ -18,3 +18,7 @@ def test_called_with_one():
 
 def test_called_with_two():
     assert generate_prime_factors(2) == [2]
+
+
+def test_called_with_three():
+    assert generate_prime_factors(3) == [3]

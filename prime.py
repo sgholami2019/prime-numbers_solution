@@ -8,6 +8,6 @@ def generate_prime_factors(value):
 
     primes = []
     if value > 1:
-        primes.append(2)
+        primes.append(value)
 
     return primes
