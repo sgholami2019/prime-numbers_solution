@@ -34,3 +34,7 @@ def test_called_with_six():
 
 def test_called_with_eight():
     assert generate_prime_factors(8) == [2, 2, 2]
+
+
+def test_called_with_nine():
+    assert generate_prime_factors(9) == [3, 3]

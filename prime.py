@@ -7,10 +7,12 @@ def generate_prime_factors(value):
         raise ValueError()
 
     primes = []
-    while value % 2 == 0:
-        primes.append(2)
-        value /= 2
-    if value > 1:
-        primes.append(value)
+    factor = 2
+    while factor <= value:
+        while value % factor == 0:
+            primes.append(factor)
+            value /= factor
+
+        factor += 1
 
     return primes
