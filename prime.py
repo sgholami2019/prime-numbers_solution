@@ -6,4 +6,8 @@ def generate_prime_factors(value):
     if not isinstance(value, int):
         raise ValueError()
 
-    return []
+    primes = []
+    if value > 1:
+        primes.append(2)
+
+    return primes
